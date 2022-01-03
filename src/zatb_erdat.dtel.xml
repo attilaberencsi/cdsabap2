@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_ERDAT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZATB_DATUM</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Record Created On</DDTEXT>
+    <REPTEXT>Created On</REPTEXT>
+    <SCRTEXT_S>On</SCRTEXT_S>
+    <SCRTEXT_M>Created On</SCRTEXT_M>
+    <SCRTEXT_L>Created On</SCRTEXT_L>
+    <APPLCLASS>SAP</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>CR_ON</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>记录创建日期</DDTEXT>
+     <REPTEXT>创建日期</REPTEXT>
+     <SCRTEXT_S>日期</SCRTEXT_S>
+     <SCRTEXT_M>创建日期</SCRTEXT_M>
+     <SCRTEXT_L>创建日期</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>วันที่สร้างเรคคอร์ด</DDTEXT>
+     <REPTEXT>สร้างเมื่อ</REPTEXT>
+     <SCRTEXT_S>เมื่อ</SCRTEXT_S>
+     <SCRTEXT_M>สร้างเมื่อ</SCRTEXT_M>
+     <SCRTEXT_L>สร้างเมื่อ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>레코드 생성일</DDTEXT>
+     <REPTEXT>생성일</REPTEXT>
+     <SCRTEXT_S>일자</SCRTEXT_S>
+     <SCRTEXT_M>생성일</SCRTEXT_M>
+     <SCRTEXT_L>생성일</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Înregistrare creată pe</DDTEXT>
+     <REPTEXT>Creat pe</REPTEXT>
+     <SCRTEXT_S>Pe</SCRTEXT_S>
+     <SCRTEXT_M>Creat pe</SCRTEXT_M>
+     <SCRTEXT_L>Creat pe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Rekod Dicipta pada</DDTEXT>
+     <REPTEXT>Dicipta pd</REPTEXT>
+     <SCRTEXT_S>Aktif</SCRTEXT_S>
+     <SCRTEXT_M>Dicipta pada</SCRTEXT_M>
+     <SCRTEXT_L>Dicipta pada</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>تاريخ إنشاء السجل</DDTEXT>
+     <REPTEXT>مُنشأ في</REPTEXT>
+     <SCRTEXT_S>تشغيل</SCRTEXT_S>
+     <SCRTEXT_M>مُنشأ في</SCRTEXT_M>
+     <SCRTEXT_L>مُنشأ في</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>רשומה נוצרה בתאריך</DDTEXT>
+     <REPTEXT>נוצר בתאר.</REPTEXT>
+     <SCRTEXT_S>פועל</SCRTEXT_S>
+     <SCRTEXT_M>נוצר בתאריך</SCRTEXT_M>
+     <SCRTEXT_L>נוצר בתאריך</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Datum založení záznamu</DDTEXT>
+     <REPTEXT>Založ.dne</REPTEXT>
+     <SCRTEXT_S>Dne</SCRTEXT_S>
+     <SCRTEXT_M>Založeno dne</SCRTEXT_M>
+     <SCRTEXT_L>Založeno dne</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Datum, an dem der Satz hinzugefügt wurde</DDTEXT>
+     <REPTEXT>Angel.am</REPTEXT>
+     <SCRTEXT_S>Am</SCRTEXT_S>
+     <SCRTEXT_M>Angelegt am</SCRTEXT_M>
+     <SCRTEXT_L>Angelegt am</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Date de création de l&apos;enregistrement</DDTEXT>
+     <REPTEXT>Créé le</REPTEXT>
+     <SCRTEXT_S>Le</SCRTEXT_S>
+     <SCRTEXT_M>Créé le</SCRTEXT_M>
+     <SCRTEXT_L>Créé le</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Ημ/νία Δημιουργίας Εγγραφής</DDTEXT>
+     <REPTEXT>Δημ.Στις</REPTEXT>
+     <SCRTEXT_S>On</SCRTEXT_S>
+     <SCRTEXT_M>Δημ.Στις</SCRTEXT_M>
+     <SCRTEXT_L>Δημιουργημένο Στις</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Rekord létrehozásának dátuma</DDTEXT>
+     <REPTEXT>Létreh.dát</REPTEXT>
+     <SCRTEXT_S>Dátum</SCRTEXT_S>
+     <SCRTEXT_M>Létreh.dátuma</SCRTEXT_M>
+     <SCRTEXT_L>Létrehozás dátuma</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Data di inserimento del record</DDTEXT>
+     <REPTEXT>Data cr.</REPTEXT>
+     <SCRTEXT_S>Il</SCRTEXT_S>
+     <SCRTEXT_M>Data cr.</SCRTEXT_M>
+     <SCRTEXT_L>Data creazione</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>レコード登録日付</DDTEXT>
+     <REPTEXT>登録日付</REPTEXT>
+     <SCRTEXT_S>日付</SCRTEXT_S>
+     <SCRTEXT_M>作成日付</SCRTEXT_M>
+     <SCRTEXT_L>登録日付</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Dato, på hvilken record blev oprettet</DDTEXT>
+     <REPTEXT>Opret. d.</REPTEXT>
+     <SCRTEXT_S>Den</SCRTEXT_S>
+     <SCRTEXT_M>Oprettet den</SCRTEXT_M>
+     <SCRTEXT_L>Oprettet den</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Data utworzenia rekordu</DDTEXT>
+     <REPTEXT>Utworzony</REPTEXT>
+     <SCRTEXT_S>Dnia</SCRTEXT_S>
+     <SCRTEXT_M>Utworzono dn.</SCRTEXT_M>
+     <SCRTEXT_L>Utworzono dnia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>記錄建立日期</DDTEXT>
+     <REPTEXT>建立日期</REPTEXT>
+     <SCRTEXT_S>開啟</SCRTEXT_S>
+     <SCRTEXT_M>建立日期</SCRTEXT_M>
+     <SCRTEXT_L>建立日期</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Datum waarop record is toegevoegd</DDTEXT>
+     <REPTEXT>Gecr. op</REPTEXT>
+     <SCRTEXT_S>Op</SCRTEXT_S>
+     <SCRTEXT_M>Gecreëerd op</SCRTEXT_M>
+     <SCRTEXT_L>Gecreëerd op</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Dato for oppretting av post</DDTEXT>
+     <REPTEXT>Oppr. den</REPTEXT>
+     <SCRTEXT_S>Dato</SCRTEXT_S>
+     <SCRTEXT_M>Opprettet den</SCRTEXT_M>
+     <SCRTEXT_L>Opprettet den</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Data de criação do registro</DDTEXT>
+     <REPTEXT>Dt.criação</REPTEXT>
+     <SCRTEXT_S>Em</SCRTEXT_S>
+     <SCRTEXT_M>Dta.criação</SCRTEXT_M>
+     <SCRTEXT_L>Dta.criação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Dátum pridania záznamu</DDTEXT>
+     <REPTEXT>Založ.dňa</REPTEXT>
+     <SCRTEXT_S>Dňa</SCRTEXT_S>
+     <SCRTEXT_M>Založené dňa</SCRTEXT_M>
+     <SCRTEXT_L>Založené dňa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Дата создания записи</DDTEXT>
+     <REPTEXT>Дт/созд.</REPTEXT>
+     <SCRTEXT_S>Дата</SCRTEXT_S>
+     <SCRTEXT_M>Дата создания</SCRTEXT_M>
+     <SCRTEXT_L>Дата создания</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Fecha de creación del registro</DDTEXT>
+     <REPTEXT>Creado el</REPTEXT>
+     <SCRTEXT_S>El</SCRTEXT_S>
+     <SCRTEXT_M>Creado el</SCRTEXT_M>
+     <SCRTEXT_L>Creado el</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Kaydın yaratıldığı tarih</DDTEXT>
+     <REPTEXT>Yrt.tarih</REPTEXT>
+     <SCRTEXT_S>Tarih</SCRTEXT_S>
+     <SCRTEXT_M>Yaratma trh.</SCRTEXT_M>
+     <SCRTEXT_L>Yaratma tarihi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tietueen lisäyspäivämäärä</DDTEXT>
+     <REPTEXT>Luontipvm</REPTEXT>
+     <SCRTEXT_S>Pvm</SCRTEXT_S>
+     <SCRTEXT_M>Luontipvm</SCRTEXT_M>
+     <SCRTEXT_L>Luontipvm</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Datum för uppläggning av posten</DDTEXT>
+     <REPTEXT>Skap. den</REPTEXT>
+     <SCRTEXT_S>Den</SCRTEXT_S>
+     <SCRTEXT_M>Uppläggn. den</SCRTEXT_M>
+     <SCRTEXT_L>Uppläggning den</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

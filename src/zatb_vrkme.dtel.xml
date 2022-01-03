@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_VRKME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>MEINS</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Sales Unit</DDTEXT>
+    <REPTEXT>SU</REPTEXT>
+    <SCRTEXT_S>Sales Unit</SCRTEXT_S>
+    <SCRTEXT_M>Sales Unit</SCRTEXT_M>
+    <SCRTEXT_L>Sales Unit</SCRTEXT_L>
+    <APPLCLASS>V</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>SALES_UNIT</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>销售单位</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>销售单位</SCRTEXT_S>
+     <SCRTEXT_M>销售单位</SCRTEXT_M>
+     <SCRTEXT_L>销售单位</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>หน่วยขาย</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>หน่วยขาย</SCRTEXT_S>
+     <SCRTEXT_M>หน่วยขาย</SCRTEXT_M>
+     <SCRTEXT_L>หน่วยขาย</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>판매 단위</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>판매 단위</SCRTEXT_S>
+     <SCRTEXT_M>판매 단위</SCRTEXT_M>
+     <SCRTEXT_L>판매 단위</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Unitate vânzări</DDTEXT>
+     <REPTEXT>UV</REPTEXT>
+     <SCRTEXT_S>Unit.vânz.</SCRTEXT_S>
+     <SCRTEXT_M>Unitate vânzări</SCRTEXT_M>
+     <SCRTEXT_L>Unitate vânzări</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Unit Jualan</DDTEXT>
+     <REPTEXT>KJ</REPTEXT>
+     <SCRTEXT_S>UnitJualan</SCRTEXT_S>
+     <SCRTEXT_M>Unit Jualan</SCRTEXT_M>
+     <SCRTEXT_L>Unit Jualan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>وحدة المبيعات</DDTEXT>
+     <REPTEXT>و.م</REPTEXT>
+     <SCRTEXT_S>وحدةمبيعات</SCRTEXT_S>
+     <SCRTEXT_M>وحدة المبيعات</SCRTEXT_M>
+     <SCRTEXT_L>وحدة المبيعات</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>יחידת מכירות</DDTEXT>
+     <REPTEXT>א&apos;</REPTEXT>
+     <SCRTEXT_S>יח&apos; מכירות</SCRTEXT_S>
+     <SCRTEXT_M>יחידת מכירות</SCRTEXT_M>
+     <SCRTEXT_L>יחידת מכירות</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Prodejní měrná jednotka</DDTEXT>
+     <REPTEXT>MJ</REPTEXT>
+     <SCRTEXT_S>Prodej.MJ</SCRTEXT_S>
+     <SCRTEXT_M>Prodejní MJ</SCRTEXT_M>
+     <SCRTEXT_L>Prodejní měrná jedn.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verkaufsmengeneinheit</DDTEXT>
+     <REPTEXT>ME</REPTEXT>
+     <SCRTEXT_S>VerkME</SCRTEXT_S>
+     <SCRTEXT_M>VerkaufsME</SCRTEXT_M>
+     <SCRTEXT_L>Verkaufsmengeneinh.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Unité de vente</DDTEXT>
+     <REPTEXT>UQ</REPTEXT>
+     <SCRTEXT_S>Unité vnte</SCRTEXT_S>
+     <SCRTEXT_M>Unité de vente</SCRTEXT_M>
+     <SCRTEXT_L>Unité de vente</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Μονάδα Πωλήσεων</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>Μον.Πωλήσ.</SCRTEXT_S>
+     <SCRTEXT_M>Μονάδα Πωλήσεων</SCRTEXT_M>
+     <SCRTEXT_L>Μονάδα Πωλήσεων</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Eladási mennyiségi egység</DDTEXT>
+     <REPTEXT>ME</REPTEXT>
+     <SCRTEXT_S>EladME</SCRTEXT_S>
+     <SCRTEXT_M>Eladási ME</SCRTEXT_M>
+     <SCRTEXT_L>Eladási menny.egys.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Unità di misura di vendita</DDTEXT>
+     <REPTEXT>UM</REPTEXT>
+     <SCRTEXT_S>UM vend.</SCRTEXT_S>
+     <SCRTEXT_M>UM di vend.</SCRTEXT_M>
+     <SCRTEXT_L>UM di vendita</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>販売単位</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>販売単位</SCRTEXT_S>
+     <SCRTEXT_M>販売単位</SCRTEXT_M>
+     <SCRTEXT_L>販売単位</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Salgsmængdeenhed</DDTEXT>
+     <REPTEXT>ME</REPTEXT>
+     <SCRTEXT_S>SalgsME</SCRTEXT_S>
+     <SCRTEXT_M>SalgsME</SCRTEXT_M>
+     <SCRTEXT_L>Salgsmængdeenhed</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Jednostka sprzedaży</DDTEXT>
+     <REPTEXT>JM</REPTEXT>
+     <SCRTEXT_S>Jedn.sprz.</SCRTEXT_S>
+     <SCRTEXT_M>Jedn. sprzedaży</SCRTEXT_M>
+     <SCRTEXT_L>Jednostka sprzedaży</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>銷售單位</DDTEXT>
+     <REPTEXT>SU</REPTEXT>
+     <SCRTEXT_S>銷售單位</SCRTEXT_S>
+     <SCRTEXT_M>銷售單位</SCRTEXT_M>
+     <SCRTEXT_L>銷售單位</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Verkoophoeveelheidseenheid</DDTEXT>
+     <REPTEXT>HE</REPTEXT>
+     <SCRTEXT_S>Verkoop-HE</SCRTEXT_S>
+     <SCRTEXT_M>Verkoop-HE</SCRTEXT_M>
+     <SCRTEXT_L>Verkoophoevh.eenheid</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Salgskvantumsenhet</DDTEXT>
+     <REPTEXT>KE</REPTEXT>
+     <SCRTEXT_S>SKE</SCRTEXT_S>
+     <SCRTEXT_M>Salgs-KE</SCRTEXT_M>
+     <SCRTEXT_L>Salgskvantumsenhet</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Unidade de venda</DDTEXT>
+     <REPTEXT>UM</REPTEXT>
+     <SCRTEXT_S>UV</SCRTEXT_S>
+     <SCRTEXT_M>Unidade venda</SCRTEXT_M>
+     <SCRTEXT_L>Unidade de venda</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Merná jednotka predaja</DDTEXT>
+     <REPTEXT>MJ</REPTEXT>
+     <SCRTEXT_S>MJPred</SCRTEXT_S>
+     <SCRTEXT_M>MJ predaja</SCRTEXT_M>
+     <SCRTEXT_L>Merná jedn.predaja</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Продажная ЕИ</DDTEXT>
+     <REPTEXT>ЕИ</REPTEXT>
+     <SCRTEXT_S>ПродажнЕд</SCRTEXT_S>
+     <SCRTEXT_M>ПродажнЕдиница</SCRTEXT_M>
+     <SCRTEXT_L>Продажная ЕИ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Unidad de medida de venta</DDTEXT>
+     <REPTEXT>UM</REPTEXT>
+     <SCRTEXT_S>UM venta</SCRTEXT_S>
+     <SCRTEXT_M>UM venta</SCRTEXT_M>
+     <SCRTEXT_L>Un.medida venta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Satış ölçü birimi</DDTEXT>
+     <REPTEXT>ÖB</REPTEXT>
+     <SCRTEXT_S>Satış ÖB</SCRTEXT_S>
+     <SCRTEXT_M>Satış ölçü brm.</SCRTEXT_M>
+     <SCRTEXT_L>Satış ölçü birimi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Myynnin määräyksikkö</DDTEXT>
+     <REPTEXT>MY</REPTEXT>
+     <SCRTEXT_S>MyynMY</SCRTEXT_S>
+     <SCRTEXT_M>Myynnin MY</SCRTEXT_M>
+     <SCRTEXT_L>Myynnin määräyksikkö</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Försäljningsmängdenhet</DDTEXT>
+     <REPTEXT>ME</REPTEXT>
+     <SCRTEXT_S>Förs.ME</SCRTEXT_S>
+     <SCRTEXT_M>Försäljn.ME</SCRTEXT_M>
+     <SCRTEXT_L>Försäljnings-ME</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>物料销售的&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;计量单位&lt;/&gt;。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;Mengeneinheit&lt;/&gt;, in der das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Material verkauft wird.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;Unit of measure&lt;/&gt;  in which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the material is sold.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il s&apos;agit de l&apos;unité de quantité dans laquelle l&apos;article est vendu.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;Unità di misura&lt;/&gt; utilizzata</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>per la vendita del materiale.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>品目販売の&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;数量単位&lt;/&gt;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Unidade de medida em que o material é vendido.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_VRKME</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_VRKME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;DS:GLOS.3526C080AFAB52B9E10000009B38F974&gt;Unidad de medida&lt;/&gt; en la que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>se compra el material.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

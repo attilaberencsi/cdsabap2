@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_WAERK</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>WAERS</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>SD Document Currency</DDTEXT>
+    <REPTEXT>Curr.</REPTEXT>
+    <SCRTEXT_S>Currency</SCRTEXT_S>
+    <SCRTEXT_M>Doc. Currency</SCRTEXT_M>
+    <SCRTEXT_L>Document Currency</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>销售和分销凭证货币</DDTEXT>
+     <REPTEXT>货币</REPTEXT>
+     <SCRTEXT_S>货币</SCRTEXT_S>
+     <SCRTEXT_M>凭证货币</SCRTEXT_M>
+     <SCRTEXT_L>凭证货币</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>สกุลเงินในเอกสาร SD</DDTEXT>
+     <REPTEXT>สง.</REPTEXT>
+     <SCRTEXT_S>สกุลเงิน</SCRTEXT_S>
+     <SCRTEXT_M>สกุลเงินเอกสาร</SCRTEXT_M>
+     <SCRTEXT_L>สกุลเงินในเอกสาร</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>SD 문서 통화</DDTEXT>
+     <REPTEXT>통화</REPTEXT>
+     <SCRTEXT_S>통화</SCRTEXT_S>
+     <SCRTEXT_M>전표 통화</SCRTEXT_M>
+     <SCRTEXT_L>전표 통화</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Monedă document SD</DDTEXT>
+     <REPTEXT>Mdă</REPTEXT>
+     <SCRTEXT_S>Monedă</SCRTEXT_S>
+     <SCRTEXT_M>Monedă document</SCRTEXT_M>
+     <SCRTEXT_L>Monedă document</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Mata Wang Dokumen SD</DDTEXT>
+     <REPTEXT>Mt wg</REPTEXT>
+     <SCRTEXT_S>Mata wang</SCRTEXT_S>
+     <SCRTEXT_M>Mt Wg Dokumen</SCRTEXT_M>
+     <SCRTEXT_L>Mata Wang Dokumen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>عملة مستند SD</DDTEXT>
+     <REPTEXT>عملة</REPTEXT>
+     <SCRTEXT_S>العملة</SCRTEXT_S>
+     <SCRTEXT_M>عملة المستند</SCRTEXT_M>
+     <SCRTEXT_L>عملة المستند</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>מטבע מסמך SD</DDTEXT>
+     <REPTEXT>מטבע</REPTEXT>
+     <SCRTEXT_S>מטבע</SCRTEXT_S>
+     <SCRTEXT_M>מטבע מסמך</SCRTEXT_M>
+     <SCRTEXT_L>מטבע מסמך</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Měna odbytového dokladu</DDTEXT>
+     <REPTEXT>Měna</REPTEXT>
+     <SCRTEXT_S>Měna</SCRTEXT_S>
+     <SCRTEXT_M>Měna dokladu</SCRTEXT_M>
+     <SCRTEXT_L>Měna dokladu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Währung des Vertriebsbelegs</DDTEXT>
+     <REPTEXT>Währg</REPTEXT>
+     <SCRTEXT_S>Währung</SCRTEXT_S>
+     <SCRTEXT_M>Belegwährung</SCRTEXT_M>
+     <SCRTEXT_L>Belegwährung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Devise du document commercial</DDTEXT>
+     <REPTEXT>Dev.</REPTEXT>
+     <SCRTEXT_S>Devise</SCRTEXT_S>
+     <SCRTEXT_M>Devise doc.</SCRTEXT_M>
+     <SCRTEXT_L>Devise document</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Νόμισμα Παραστατικού SD</DDTEXT>
+     <REPTEXT>Νόμ.</REPTEXT>
+     <SCRTEXT_S>Νόμισμα</SCRTEXT_S>
+     <SCRTEXT_M>Νόμ.εγγραφής</SCRTEXT_M>
+     <SCRTEXT_L>Νόμισμα Εγγραφής</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Értékesítési bizonylat pénzneme</DDTEXT>
+     <REPTEXT>Pnem</REPTEXT>
+     <SCRTEXT_S>Pénznem</SCRTEXT_S>
+     <SCRTEXT_M>Bizl.pénznem</SCRTEXT_M>
+     <SCRTEXT_L>Bizonylat pénzneme</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Divisa del documento commerciale</DDTEXT>
+     <REPTEXT>Div.</REPTEXT>
+     <SCRTEXT_S>Divisa</SCRTEXT_S>
+     <SCRTEXT_M>Divisa doc.</SCRTEXT_M>
+     <SCRTEXT_L>Divisa documento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>販売管理伝票通貨</DDTEXT>
+     <REPTEXT>通貨</REPTEXT>
+     <SCRTEXT_S>通貨</SCRTEXT_S>
+     <SCRTEXT_M>伝票通貨</SCRTEXT_M>
+     <SCRTEXT_L>伝票通貨</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Valuta for SD-bilag</DDTEXT>
+     <REPTEXT>Val.</REPTEXT>
+     <SCRTEXT_S>Valuta</SCRTEXT_S>
+     <SCRTEXT_M>Bilagsvaluta</SCRTEXT_M>
+     <SCRTEXT_L>Bilagsvaluta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Waluta dokumentu SD</DDTEXT>
+     <REPTEXT>Wal.</REPTEXT>
+     <SCRTEXT_S>Waluta</SCRTEXT_S>
+     <SCRTEXT_M>Waluta dokum.</SCRTEXT_M>
+     <SCRTEXT_L>Waluta dokumentu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>SD 文件幣別</DDTEXT>
+     <REPTEXT>幣別</REPTEXT>
+     <SCRTEXT_S>幣別</SCRTEXT_S>
+     <SCRTEXT_M>文件幣別</SCRTEXT_M>
+     <SCRTEXT_L>文件幣別</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Valuta van verkoopdocument</DDTEXT>
+     <REPTEXT>Val.</REPTEXT>
+     <SCRTEXT_S>Valuta</SCRTEXT_S>
+     <SCRTEXT_M>Documentvaluta</SCRTEXT_M>
+     <SCRTEXT_L>Documentvaluta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Valuta for SD-dokument</DDTEXT>
+     <REPTEXT>Val.</REPTEXT>
+     <SCRTEXT_S>Valuta</SCRTEXT_S>
+     <SCRTEXT_M>Dokumentvaluta</SCRTEXT_M>
+     <SCRTEXT_L>Dokumentvaluta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Moeda do documento SD</DDTEXT>
+     <REPTEXT>Moeda</REPTEXT>
+     <SCRTEXT_S>Moeda</SCRTEXT_S>
+     <SCRTEXT_M>Moeda documento</SCRTEXT_M>
+     <SCRTEXT_L>Moeda do documento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Mena odbytového dokladu</DDTEXT>
+     <REPTEXT>Mena</REPTEXT>
+     <SCRTEXT_S>Mena</SCRTEXT_S>
+     <SCRTEXT_M>Mena dokladu</SCRTEXT_M>
+     <SCRTEXT_L>Mena dokladu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Валюта документа сбыта</DDTEXT>
+     <REPTEXT>Вал.</REPTEXT>
+     <SCRTEXT_S>Валюта</SCRTEXT_S>
+     <SCRTEXT_M>Валюта док-та</SCRTEXT_M>
+     <SCRTEXT_L>Валюта документа</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Moneda de documento comercial</DDTEXT>
+     <REPTEXT>Mon.</REPTEXT>
+     <SCRTEXT_S>Moneda</SCRTEXT_S>
+     <SCRTEXT_M>Moneda doc.</SCRTEXT_M>
+     <SCRTEXT_L>Moneda del documento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>SD belgesi para birimi</DDTEXT>
+     <REPTEXT>PB</REPTEXT>
+     <SCRTEXT_S>PB</SCRTEXT_S>
+     <SCRTEXT_M>Belge PB</SCRTEXT_M>
+     <SCRTEXT_L>Belge para birimi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Myyntitositteen valuutta</DDTEXT>
+     <REPTEXT>Val.</REPTEXT>
+     <SCRTEXT_S>Valuutta</SCRTEXT_S>
+     <SCRTEXT_M>Tositevaluutta</SCRTEXT_M>
+     <SCRTEXT_L>Tositevaluutta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>SD-dokumentets valuta</DDTEXT>
+     <REPTEXT>Val.</REPTEXT>
+     <SCRTEXT_S>Valuta</SCRTEXT_S>
+     <SCRTEXT_M>Dokumentvaluta</SCRTEXT_M>
+     <SCRTEXT_L>Dokumentvaluta</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>应用到凭证的货币(例如，到销售订单或发票）。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>系统建议来自&lt;GL:sold-to_party&gt;运达方&lt;/&gt;的</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:customer_master_record&gt;客户主记录&lt;/&gt;的凭证货币。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>可以手工在凭证中更改货币。若更改此货币，则系统重新计算整个凭证的价格。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die für den Vertriebsbeleg (z.B. den Kundenauftrag oder die Rechnung)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gültige Währung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das System schlägt die Belegwährung aus dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Debitorenstammsatz&gt;Debitorenstammsatz&lt;/&gt; des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Auftraggeber&gt;Auftraggebers&lt;/&gt; vor. Sie können die Währung im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vertriebsbeleg manuell ändern. Wenn Sie die Währung ändern, führt das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>System für den gesamten Beleg eine neue Preisfindung durch.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The currency that applies to the document (for example, to a sales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>order or an invoice).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system proposes the document currency from the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:customer_master_record&gt;customer master record&lt;/&gt; of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:sold-to_party&gt;sold-to party&lt;/&gt;. You can change the currency</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manually in the document. If you change the currency, the system</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>recalculates prices for the entire document.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Devise valable pour le document commercial (la commande client ou la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>facture, par exemple).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le système propose la devise du document provenant de la fiche client</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du donneur d&apos;ordre. Vous pouvez modifier la devise dans le document</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>commercial. Si vous la modifiez, le système effectue une nouvelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>détermination du prix pour l&apos;ensemble du document.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Divisa valida per un determinato documento commerciale (ad es. per</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>l&apos;ordine cliente o per la fattura).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il sistema propone la divisa documento contenuta nel record anagrafico</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clienti del committente. La divisa può essere modificata manualmente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nel documento. Se si modifica la divisa, il sistema esegue una nuova</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinazione del prezzo per l&apos;intero documento.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>伝票に対して適用される通貨 (例: 受注伝票または請求書)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>伝票通貨は &lt;GL:受注先&gt;受注先&lt;/&gt; の</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> &lt;GL:得意先マスタ&gt;得意先マスタ&lt;/&gt; より提案されます。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>伝票通貨はマニュアル変更することができます。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>通貨を変更すると、伝票全体の価格が再計算されます。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A moeda válida para o documento de vendas e distribuição (por exemplo,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ordem do cliente ou a fatura).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O sistema propõe a moeda do documento a partir do registro mestre de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clientes do emissor da ordem. O usuário poderá modificar a moeda</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>manualmente no documento de vendas e distribuição. Se o usuário</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>modificar a moeda, o sistema executará uma nova determinação do preço</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>para todo o documento.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_WAERK</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_WAERK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Moneda válida para el documento comercial (p. ej. pedido de cliente o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>factura).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El sistema propone la moneda de documento a partir del registro maestro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>del deudor del solicitante. Este valor puede ser modificado manualmente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>en el documento comercial. Si se modifica la moneda, el sistema efectúa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>una nueva determinación de precios para el documento en su totalidad.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

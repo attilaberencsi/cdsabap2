@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_AENAME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZATB_UNAME</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Last Changed By</DDTEXT>
+    <REPTEXT>Changed by</REPTEXT>
+    <SCRTEXT_S>Changed</SCRTEXT_S>
+    <SCRTEXT_M>Changed by</SCRTEXT_M>
+    <SCRTEXT_L>Changed by</SCRTEXT_L>
+    <APPLCLASS>CL</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>最后更改者</DDTEXT>
+     <REPTEXT>更改者</REPTEXT>
+     <SCRTEXT_S>已更改</SCRTEXT_S>
+     <SCRTEXT_M>更改者</SCRTEXT_M>
+     <SCRTEXT_L>更改者</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>เปลี่ยนแปลงล่าสุดโดย</DDTEXT>
+     <REPTEXT>ปป.โดย</REPTEXT>
+     <SCRTEXT_S>ปป.แล้ว</SCRTEXT_S>
+     <SCRTEXT_M>เปลี่ยนแปลงโดย</SCRTEXT_M>
+     <SCRTEXT_L>เปลี่ยนแปลงโดย</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>최종 변경자</DDTEXT>
+     <REPTEXT>변경자</REPTEXT>
+     <SCRTEXT_S>변경</SCRTEXT_S>
+     <SCRTEXT_M>변경자</SCRTEXT_M>
+     <SCRTEXT_L>변경자</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Ultima modificare de</DDTEXT>
+     <REPTEXT>Modificat de</REPTEXT>
+     <SCRTEXT_S>Modificat</SCRTEXT_S>
+     <SCRTEXT_M>Modificat de</SCRTEXT_M>
+     <SCRTEXT_L>Modificat de</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Terakhir Diubah oleh</DDTEXT>
+     <REPTEXT>Diubah oleh</REPTEXT>
+     <SCRTEXT_S>Diubah</SCRTEXT_S>
+     <SCRTEXT_M>Diubah oleh</SCRTEXT_M>
+     <SCRTEXT_L>Diubah oleh</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>آخر تغيير بواسطة</DDTEXT>
+     <REPTEXT>تغيير بواسطة</REPTEXT>
+     <SCRTEXT_S>مغيَّر</SCRTEXT_S>
+     <SCRTEXT_M>تغيير بواسطة</SCRTEXT_M>
+     <SCRTEXT_L>تم التغيير بواسطة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>שונה לאחרונה על-ידי</DDTEXT>
+     <REPTEXT>שונה ע&quot;י</REPTEXT>
+     <SCRTEXT_S>שוּנה</SCRTEXT_S>
+     <SCRTEXT_M>שונה ע&quot;י</SCRTEXT_M>
+     <SCRTEXT_L>שונה ע&quot;י</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Naposledy změnil</DDTEXT>
+     <REPTEXT>Změnil</REPTEXT>
+     <SCRTEXT_S>Změněno</SCRTEXT_S>
+     <SCRTEXT_M>Změnil</SCRTEXT_M>
+     <SCRTEXT_L>Změnil</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Letzter Änderer</DDTEXT>
+     <REPTEXT>Änderer</REPTEXT>
+     <SCRTEXT_S>Geändert</SCRTEXT_S>
+     <SCRTEXT_M>Geändert von</SCRTEXT_M>
+     <SCRTEXT_L>Geändert von</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Modifié en dernier par</DDTEXT>
+     <REPTEXT>AuteurMod.</REPTEXT>
+     <SCRTEXT_S>Modifié</SCRTEXT_S>
+     <SCRTEXT_M>Modifié par</SCRTEXT_M>
+     <SCRTEXT_L>Modifié par</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Τελευταία Αλλαγή Από</DDTEXT>
+     <REPTEXT>Αλλαγή από</REPTEXT>
+     <SCRTEXT_S>Αλλαγμένο</SCRTEXT_S>
+     <SCRTEXT_M>Αλλαγή από</SCRTEXT_M>
+     <SCRTEXT_L>Αλλαγή από</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Utolsó módosító</DDTEXT>
+     <REPTEXT>Módosító</REPTEXT>
+     <SCRTEXT_S>Módosít.</SCRTEXT_S>
+     <SCRTEXT_M>Módosította</SCRTEXT_M>
+     <SCRTEXT_L>Módosította</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Autore ultima modifica</DDTEXT>
+     <REPTEXT>Autore mod.</REPTEXT>
+     <SCRTEXT_S>Modificato</SCRTEXT_S>
+     <SCRTEXT_M>Autore modifica</SCRTEXT_M>
+     <SCRTEXT_L>Autore modifica</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>最終変更者</DDTEXT>
+     <REPTEXT>変更者</REPTEXT>
+     <SCRTEXT_S>変更</SCRTEXT_S>
+     <SCRTEXT_M>変更者</SCRTEXT_M>
+     <SCRTEXT_L>変更者</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Senest ændret af</DDTEXT>
+     <REPTEXT>Ændret af</REPTEXT>
+     <SCRTEXT_S>Ændret</SCRTEXT_S>
+     <SCRTEXT_M>Ændret af</SCRTEXT_M>
+     <SCRTEXT_L>Ændret af</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Ostatnio zmienione przez</DDTEXT>
+     <REPTEXT>Zm. przez</REPTEXT>
+     <SCRTEXT_S>Zmieniono</SCRTEXT_S>
+     <SCRTEXT_M>Zmienione przez</SCRTEXT_M>
+     <SCRTEXT_L>Zmienione przez</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>上次更改者</DDTEXT>
+     <REPTEXT>更改者</REPTEXT>
+     <SCRTEXT_S>已更改</SCRTEXT_S>
+     <SCRTEXT_M>更改者</SCRTEXT_M>
+     <SCRTEXT_L>更改者</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Laatste bewerker</DDTEXT>
+     <REPTEXT>Bewerker</REPTEXT>
+     <SCRTEXT_S>Gewijzigd</SCRTEXT_S>
+     <SCRTEXT_M>Gewijzigd door</SCRTEXT_M>
+     <SCRTEXT_L>Gewijzigd door</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Sist endret av</DDTEXT>
+     <REPTEXT>Endret av</REPTEXT>
+     <SCRTEXT_S>Endret</SCRTEXT_S>
+     <SCRTEXT_M>Endret av</SCRTEXT_M>
+     <SCRTEXT_L>Endret av</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Último modificador</DDTEXT>
+     <REPTEXT>Modificador</REPTEXT>
+     <SCRTEXT_S>Modificado</SCRTEXT_S>
+     <SCRTEXT_M>Modificado por</SCRTEXT_M>
+     <SCRTEXT_L>Modificado por</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Naposledy zmenil</DDTEXT>
+     <REPTEXT>Zmenil</REPTEXT>
+     <SCRTEXT_S>Zmenené</SCRTEXT_S>
+     <SCRTEXT_M>Zmenil</SCRTEXT_M>
+     <SCRTEXT_L>Zmenil</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Автор последнего изменения</DDTEXT>
+     <REPTEXT>Изменил</REPTEXT>
+     <SCRTEXT_S>Изменил</SCRTEXT_S>
+     <SCRTEXT_M>Изменил</SCRTEXT_M>
+     <SCRTEXT_L>Изменил</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Modificado por</DDTEXT>
+     <REPTEXT>Modif.por</REPTEXT>
+     <SCRTEXT_S>Modificado</SCRTEXT_S>
+     <SCRTEXT_M>Modificado por</SCRTEXT_M>
+     <SCRTEXT_L>Modificado por</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Son değiştiren</DDTEXT>
+     <REPTEXT>Değiştiren</REPTEXT>
+     <SCRTEXT_S>Değiştiren</SCRTEXT_S>
+     <SCRTEXT_M>Değiştiren</SCRTEXT_M>
+     <SCRTEXT_L>Değiştiren</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Viime muuttaja</DDTEXT>
+     <REPTEXT>Muuttaja</REPTEXT>
+     <SCRTEXT_S>Muutettu</SCRTEXT_S>
+     <SCRTEXT_M>Muuttaja</SCRTEXT_M>
+     <SCRTEXT_L>Muuttaja</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Senast ändr. av</DDTEXT>
+     <REPTEXT>Ändr.av</REPTEXT>
+     <SCRTEXT_S>Ändrad</SCRTEXT_S>
+     <SCRTEXT_M>Ändrad av</SCRTEXT_M>
+     <SCRTEXT_L>Ändrad av</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>最后改变该对象的用户。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>系统自动输入。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Benutzer, der das Objekt zuletzt geändert hat.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Feld wird automatisch vom System gesetzt.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>User who last changed the object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This is entered automatically by the system.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Nom du dernier utilisateur à avoir modifié l&apos;objet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>La zone est définie automatiquement par le système.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Utente che ha effettuato l&apos;ultima modifica.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il campo viene inserito automaticamente dal sistema.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>オブジェクトを最後に変更した人</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>自動的に設定されます。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Usuário que foi o último a modificar o objeto.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O campo é definido automaticamente pelo sistema.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_AENAME</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_AENAME</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Usuario que modificó el objeto por último.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Este campo es fijado automáticamente por el sistema.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

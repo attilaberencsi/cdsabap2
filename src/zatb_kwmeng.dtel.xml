@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_KWMENG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZATB_MENG15</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Cumulative order quantity in sales units</DDTEXT>
+    <REPTEXT>Order Quantity</REPTEXT>
+    <SCRTEXT_S>Order qty</SCRTEXT_S>
+    <SCRTEXT_M>Order quantity</SCRTEXT_M>
+    <SCRTEXT_L>Order Quantity</SCRTEXT_L>
+    <APPLCLASS>VS</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>REQ_QTY</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>以销售单位表示的累计订购数量</DDTEXT>
+     <REPTEXT>订单数量</REPTEXT>
+     <SCRTEXT_S>订单数量</SCRTEXT_S>
+     <SCRTEXT_M>订单数量</SCRTEXT_M>
+     <SCRTEXT_L>订单数量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ปริมาณสั่งซื้อสะสมในหน่วยขาย</DDTEXT>
+     <REPTEXT>ปริมาณที่สั่ง</REPTEXT>
+     <SCRTEXT_S>ปริมาณสั่ง</SCRTEXT_S>
+     <SCRTEXT_M>ปริมาณที่สั่ง</SCRTEXT_M>
+     <SCRTEXT_L>ปริมาณที่สั่ง</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>누적 오더 수량(판매 단위)</DDTEXT>
+     <REPTEXT>오더 수량</REPTEXT>
+     <SCRTEXT_S>오더수량</SCRTEXT_S>
+     <SCRTEXT_M>오더 수량</SCRTEXT_M>
+     <SCRTEXT_L>오더 수량</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Cantitate cumulată comandă în unităţi vânzări</DDTEXT>
+     <REPTEXT>Cantitate comandă</REPTEXT>
+     <SCRTEXT_S>Cant.cdă</SCRTEXT_S>
+     <SCRTEXT_M>Cant.comandă</SCRTEXT_M>
+     <SCRTEXT_L>Cantitate comandă</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Kuantiti pesanan kumulatif dalam unit jualan</DDTEXT>
+     <REPTEXT>Kuantiti Pesanan</REPTEXT>
+     <SCRTEXT_S>Ktti psnn</SCRTEXT_S>
+     <SCRTEXT_M>Kuantti pesanan</SCRTEXT_M>
+     <SCRTEXT_L>Kuantiti Pesanan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>كمية الأوامر التراكمية بوحدات المبيعات</DDTEXT>
+     <REPTEXT>كمية الأمر</REPTEXT>
+     <SCRTEXT_S>كمية الأمر</SCRTEXT_S>
+     <SCRTEXT_M>كمية الأمر</SCRTEXT_M>
+     <SCRTEXT_L>كمية الأمر</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>כמות מצטברת בהזמנה ביחידות מכירות</DDTEXT>
+     <REPTEXT>כמות הזמנה</REPTEXT>
+     <SCRTEXT_S>כמות הזמנה</SCRTEXT_S>
+     <SCRTEXT_M>כמות הזמנה</SCRTEXT_M>
+     <SCRTEXT_L>כמות הזמנה</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Kumulované zakázkové množství v MJP</DDTEXT>
+     <REPTEXT>Zakázkové množství</REPTEXT>
+     <SCRTEXT_S>KumZakMnož</SCRTEXT_S>
+     <SCRTEXT_M>Kumul.zak.množ.</SCRTEXT_M>
+     <SCRTEXT_L>Zakázkové množství</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kumulierte Auftragsmenge in VME</DDTEXT>
+     <REPTEXT>Auftragsmenge</REPTEXT>
+     <SCRTEXT_S>KumAuMenge</SCRTEXT_S>
+     <SCRTEXT_M>KumAuftMenge</SCRTEXT_M>
+     <SCRTEXT_L>Auftragsmenge</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Quantité commandée cumulée en unité de vente</DDTEXT>
+     <REPTEXT>Quantité d&apos;ordre</REPTEXT>
+     <SCRTEXT_S>QtéCdéeCum</SCRTEXT_S>
+     <SCRTEXT_M>QtéCdéeCumulée</SCRTEXT_M>
+     <SCRTEXT_L>Quantité d&apos;ordre</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Σωρυετική ποσότητα παραγγελίας σε μονάδες πωλήσεων</DDTEXT>
+     <REPTEXT>Ποσότ.Παραγγ.</REPTEXT>
+     <SCRTEXT_S>Ποσ.παραγ.</SCRTEXT_S>
+     <SCRTEXT_M>Ποσότ.παραγγ.</SCRTEXT_M>
+     <SCRTEXT_L>Ποσότητα Παραγγελίας</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Halmozott rendelt mennyiség EME-ben</DDTEXT>
+     <REPTEXT>Rendelt mennyiség</REPTEXT>
+     <SCRTEXT_S>K.r.menny.</SCRTEXT_S>
+     <SCRTEXT_M>Kum.rend.menny.</SCRTEXT_M>
+     <SCRTEXT_L>Rendelt mennyiség</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Quantità totale dell&apos; ordine in unità di mis. di vendita</DDTEXT>
+     <REPTEXT>Quantità ordine</REPTEXT>
+     <SCRTEXT_S>Qtà ordine</SCRTEXT_S>
+     <SCRTEXT_M>Qtà tot.ordine</SCRTEXT_M>
+     <SCRTEXT_L>Quantità ordine</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>累積受注数量 (販売単位)</DDTEXT>
+     <REPTEXT>受注数量</REPTEXT>
+     <SCRTEXT_S>受注数量</SCRTEXT_S>
+     <SCRTEXT_M>受注数量</SCRTEXT_M>
+     <SCRTEXT_L>受注数量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Akkumuleret ordremængde i SME</DDTEXT>
+     <REPTEXT>Ordremængde</REPTEXT>
+     <SCRTEXT_S>Akk.ordmgd</SCRTEXT_S>
+     <SCRTEXT_M>Akk.ordremængde</SCRTEXT_M>
+     <SCRTEXT_L>Ordremængde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Łączna ilość zlecenia w jednostkach sprzedaży</DDTEXT>
+     <REPTEXT>Ilość zlecenia</REPTEXT>
+     <SCRTEXT_S>Il. zlec.</SCRTEXT_S>
+     <SCRTEXT_M>Łącz. il. zlec.</SCRTEXT_M>
+     <SCRTEXT_L>Ilość zlecenia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>累計訂單數量〈銷售單位〉</DDTEXT>
+     <REPTEXT>訂單數量</REPTEXT>
+     <SCRTEXT_S>訂購數量</SCRTEXT_S>
+     <SCRTEXT_M>訂購數量</SCRTEXT_M>
+     <SCRTEXT_L>訂單數量</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Gecumuleerde orderhoevh in VEh</DDTEXT>
+     <REPTEXT>Orderhoeveelheid</REPTEXT>
+     <SCRTEXT_S>CumOrderHv</SCRTEXT_S>
+     <SCRTEXT_M>Cum.orderhoevh</SCRTEXT_M>
+     <SCRTEXT_L>Orderhoeveelheid</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Akkumulert ordrekvantum i salgskvantumsenhet</DDTEXT>
+     <REPTEXT>Ordrekvantum</REPTEXT>
+     <SCRTEXT_S>AkkOrdKvt</SCRTEXT_S>
+     <SCRTEXT_M>Akk. ordrekvt.</SCRTEXT_M>
+     <SCRTEXT_L>Ordrekvantum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Quantidade da ordem acumulada em unidade de venda</DDTEXT>
+     <REPTEXT>Quantidade da ordem</REPTEXT>
+     <SCRTEXT_S>QtdOrdAcum</SCRTEXT_S>
+     <SCRTEXT_M>QtdOrdemAcum.</SCRTEXT_M>
+     <SCRTEXT_L>Qtd.ordem</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Kumulované množstvo zákazky v PJ</DDTEXT>
+     <REPTEXT>Zákazkové množstvo</REPTEXT>
+     <SCRTEXT_S>KumMnZák</SCRTEXT_S>
+     <SCRTEXT_M>KumulMnožZák</SCRTEXT_M>
+     <SCRTEXT_L>Zákazkové množstvo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Кумулятивное количество заказа в продажной ед. измерения</DDTEXT>
+     <REPTEXT>Количество заказа</REPTEXT>
+     <SCRTEXT_S>КумулКлчЗк</SCRTEXT_S>
+     <SCRTEXT_M>КумулятКоличЗак</SCRTEXT_M>
+     <SCRTEXT_L>Количество заказа</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Cantidad de pedido acumulada (en unidades de venta)</DDTEXT>
+     <REPTEXT>Cantidad de pedido</REPTEXT>
+     <SCRTEXT_S>Ctd.ped.</SCRTEXT_S>
+     <SCRTEXT_M>Ctd.de pedido</SCRTEXT_M>
+     <SCRTEXT_L>Cantidad de pedido</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Satış ölçü birimi cinsinden kümüle sipariş miktarı</DDTEXT>
+     <REPTEXT>Sipariş miktarı</REPTEXT>
+     <SCRTEXT_S>Küm.sprş.</SCRTEXT_S>
+     <SCRTEXT_M>Küm.sipariş mkt</SCRTEXT_M>
+     <SCRTEXT_L>Sipariş miktarı</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Kumuloitu tilausmäärä myynnin määräyksikköinä</DDTEXT>
+     <REPTEXT>Tilausmäärä</REPTEXT>
+     <SCRTEXT_S>KumTilMrä</SCRTEXT_S>
+     <SCRTEXT_M>KumTilausmäärä</SCRTEXT_M>
+     <SCRTEXT_L>Tilausmäärä</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Ackumulerad orderkvantitet i FME</DDTEXT>
+     <REPTEXT>Orderkvant.</REPTEXT>
+     <SCRTEXT_S>Ack.ord.kv</SCRTEXT_S>
+     <SCRTEXT_M>Ack.orderkvant.</SCRTEXT_M>
+     <SCRTEXT_L>Orderkvant.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>此项目的总计(取整的)订单数量。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>如果有此项目的多于一个&lt;GL:schedule_line&gt;计划行&lt;/&gt;，</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>总计订单数量来自所有计划行总计的&lt;DS:DE.CMENG&gt;取整数量</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>如果不执行取整，那么订单必需的数量符合取整数量的计划行。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Gesamte (gerundete) Auftragsmenge für diese Position.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn es zu dieser Position mehrere &lt;GL:Einteilung&gt;Einteilungen&lt;/&gt; gibt,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wird die Gesamtauftragsmenge aus der Summe aller Einteilungen der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CMENG&gt;gerundeten Menge&lt;/&gt; gebildet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Falls keine Rundung stattfindet, entspricht die Auftragswunschmenge</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>einer Einteilung der gerundeten Menge.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The total (rounded) order quantity for this item.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If there is more than one &lt;GL:schedule_line&gt;schedule line&lt;/&gt; for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>item, the total order quantity is taken from the &lt;DS:DE.CMENG&gt;rounded</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantity&lt;/&gt; of the total of all the schedule lines.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>If no rounding is carried out, then the order required quantity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponds to a schedule line of the rounded quantity.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Quantité commandée (arrondie) totale pour ce poste.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si plusieurs échéances ont été définies pour ce poste, la quantité</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>commandée totale est alors égale à la somme des échéances de la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CMENG&gt;quantité arrondie&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Si aucune règle d&apos;arrondi n&apos;est exécutée, la quantité souhaitée d&apos;une</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>échéance correspond à la quantité arrondie.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Quantità complessiva dell&apos;ordine (arrotondata) relativa a questa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>posizione.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Se per questa posizione esistono diverse</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Einteilung&gt;schedulazioni&lt;/&gt;, la quantità complessiva dell&apos;ordine si</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ricava dalla somma di tutte le schedulazioni della</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CMENG&gt;quantità arrotondata&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Se non è stato eseguito alcun arrotondamento, la quantità dell&apos;ordine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>richiesta corrisponde a quella di una schedulazione della quantità</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>arrotondata.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>この明細の (丸め) 合計受注数量</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>明細に対し &lt;GL:納入日程行&gt;納入日程行&lt;/&gt; が一行以上ある場合は、</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>合計受注数量は全納入日程行の合計&lt;DS:DE.CMENG&gt;丸め数量</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;/&gt;が使用されます。</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>丸めを実行しない場合は、受注所要量はその丸め数量の納入日程行</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>に対応します。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Quantidade da ordem global (arredondada) para este item.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Se houver várias divisões de remessa para este item, será formada a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantidade da ordem global proveniente do total de todas as divisões de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>remessa da quantidade arredondada.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Caso não ocorra nenhum arredondamento, a quantidade requisitada da</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ordem corresponderá a uma divisão de remessa da quantidade arredondada.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_KWMENG</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <TXTLINES>00006</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_KWMENG</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cantidad total (redondeada) de pedido para esta posición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si para esta posición existen varios repartos, la cantidad total de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>pedido resultará de la suma de todos los repartos de la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.CMENG&gt;cantidad redondeada&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>De no efectuarse ningún redondeo, la cantidad de pedido deseada se</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponderá con un reparto de la cantidad redondeada.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

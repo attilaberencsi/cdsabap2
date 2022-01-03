@@ -1,0 +1,797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_MTART</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZATB_MTART</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material Type</DDTEXT>
+    <REPTEXT>MTyp</REPTEXT>
+    <SCRTEXT_S>Matl Type</SCRTEXT_S>
+    <SCRTEXT_M>Material Type</SCRTEXT_M>
+    <SCRTEXT_L>Material Type</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>物料类型</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>物料类型</SCRTEXT_S>
+     <SCRTEXT_M>物料类型</SCRTEXT_M>
+     <SCRTEXT_L>物料类型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ประเภทวัสดุ</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>ปภ.วัสดุ</SCRTEXT_S>
+     <SCRTEXT_M>ประเภทวัสดุ</SCRTEXT_M>
+     <SCRTEXT_L>ประเภทวัสดุ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>자재 유형</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>자재 유형</SCRTEXT_S>
+     <SCRTEXT_M>자재 유형</SCRTEXT_M>
+     <SCRTEXT_L>자재 유형</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Tip material</DDTEXT>
+     <REPTEXT>TipM</REPTEXT>
+     <SCRTEXT_S>Tip mat.</SCRTEXT_S>
+     <SCRTEXT_M>Tip material</SCRTEXT_M>
+     <SCRTEXT_L>Tip material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Jenis Bahan</DDTEXT>
+     <REPTEXT>JBhn</REPTEXT>
+     <SCRTEXT_S>Jnis Bahan</SCRTEXT_S>
+     <SCRTEXT_M>Jenis Bahan</SCRTEXT_M>
+     <SCRTEXT_L>Jenis Bahan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>نوع المادة</DDTEXT>
+     <REPTEXT>ن.م.</REPTEXT>
+     <SCRTEXT_S>نوع المادة</SCRTEXT_S>
+     <SCRTEXT_M>نوع المادة</SCRTEXT_M>
+     <SCRTEXT_L>نوع المادة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>סוג חומר</DDTEXT>
+     <REPTEXT>ס.ח.</REPTEXT>
+     <SCRTEXT_S>סוג חומר</SCRTEXT_S>
+     <SCRTEXT_M>סוג חומר</SCRTEXT_M>
+     <SCRTEXT_L>סוג חומר</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Druh materiálu</DDTEXT>
+     <REPTEXT>DrMa</REPTEXT>
+     <SCRTEXT_S>Druh mat.</SCRTEXT_S>
+     <SCRTEXT_M>Druh mater.</SCRTEXT_M>
+     <SCRTEXT_L>Druh materiálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialart</DDTEXT>
+     <REPTEXT>MArt</REPTEXT>
+     <SCRTEXT_S>MatArt</SCRTEXT_S>
+     <SCRTEXT_M>Materialart</SCRTEXT_M>
+     <SCRTEXT_L>Materialart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type d&apos;article</DDTEXT>
+     <REPTEXT>TyAr</REPTEXT>
+     <SCRTEXT_S>Type art.</SCRTEXT_S>
+     <SCRTEXT_M>Type d&apos;article</SCRTEXT_M>
+     <SCRTEXT_L>Type d&apos;article</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Τύπος Υλικού</DDTEXT>
+     <REPTEXT>ΤΜην</REPTEXT>
+     <SCRTEXT_S>Τύπ.Υλικού</SCRTEXT_S>
+     <SCRTEXT_M>Τύπος Υλικού</SCRTEXT_M>
+     <SCRTEXT_L>Τύπος Υλικού</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Anyagfajta</DDTEXT>
+     <REPTEXT>AFaj</REPTEXT>
+     <SCRTEXT_S>AnyFajta</SCRTEXT_S>
+     <SCRTEXT_M>Anyagfajta</SCRTEXT_M>
+     <SCRTEXT_L>Anyagfajta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tipo di materiale</DDTEXT>
+     <REPTEXT>T.m.</REPTEXT>
+     <SCRTEXT_S>Tipo mat.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo mat.</SCRTEXT_M>
+     <SCRTEXT_L>Tipo di materiale</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>品目タイプ</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>品目タイプ</SCRTEXT_S>
+     <SCRTEXT_M>品目タイプ</SCRTEXT_M>
+     <SCRTEXT_L>品目タイプ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Materialeart</DDTEXT>
+     <REPTEXT>MArt</REPTEXT>
+     <SCRTEXT_S>Mat.art</SCRTEXT_S>
+     <SCRTEXT_M>Materialeart</SCRTEXT_M>
+     <SCRTEXT_L>Materialeart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Rodzaj materiału</DDTEXT>
+     <REPTEXT>Rodz</REPTEXT>
+     <SCRTEXT_S>Rodz. mat.</SCRTEXT_S>
+     <SCRTEXT_M>Rodz. materiału</SCRTEXT_M>
+     <SCRTEXT_L>Rodzaj materiału</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>物料類型</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>物料類型</SCRTEXT_S>
+     <SCRTEXT_M>物料類型</SCRTEXT_M>
+     <SCRTEXT_L>物料類型</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Artikelsoort</DDTEXT>
+     <REPTEXT>ASrt</REPTEXT>
+     <SCRTEXT_S>Art.soort</SCRTEXT_S>
+     <SCRTEXT_M>Artikelsoort</SCRTEXT_M>
+     <SCRTEXT_L>Artikelsoort</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Materialtype</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>Mat.type</SCRTEXT_S>
+     <SCRTEXT_M>Materialtype</SCRTEXT_M>
+     <SCRTEXT_L>Materialtype</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de material</DDTEXT>
+     <REPTEXT>TMat</REPTEXT>
+     <SCRTEXT_S>TpMaterial</SCRTEXT_S>
+     <SCRTEXT_M>Tipo material</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Druh mater.</DDTEXT>
+     <REPTEXT>DrMa</REPTEXT>
+     <SCRTEXT_S>Dr.mat.</SCRTEXT_S>
+     <SCRTEXT_M>Druh mater.</SCRTEXT_M>
+     <SCRTEXT_L>Druh materiálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Вид материала</DDTEXT>
+     <REPTEXT>ВидМ</REPTEXT>
+     <SCRTEXT_S>ВидМтр</SCRTEXT_S>
+     <SCRTEXT_M>Вид материала</SCRTEXT_M>
+     <SCRTEXT_L>Вид материала</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo de material</DDTEXT>
+     <REPTEXT>TpMt</REPTEXT>
+     <SCRTEXT_S>TpMat</SCRTEXT_S>
+     <SCRTEXT_M>Tipo material</SCRTEXT_M>
+     <SCRTEXT_L>Tipo material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Malzeme türü</DDTEXT>
+     <REPTEXT>MTü.</REPTEXT>
+     <SCRTEXT_S>Mlz.türü</SCRTEXT_S>
+     <SCRTEXT_M>Malzeme türü</SCRTEXT_M>
+     <SCRTEXT_L>Malzeme türü</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Nimikelaji</DDTEXT>
+     <REPTEXT>NimL</REPTEXT>
+     <SCRTEXT_S>Nimikelaji</SCRTEXT_S>
+     <SCRTEXT_M>Nimikelaji</SCRTEXT_M>
+     <SCRTEXT_L>Nimikelaji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Materialtyp</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>MtrlTyp</SCRTEXT_S>
+     <SCRTEXT_M>Materialtyp</SCRTEXT_M>
+     <SCRTEXT_L>Materialtyp</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>分配&lt;GL:material&gt;物料&lt;/&gt;到诸如原材料、经营供应或贸易货物的物料组中。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>该&lt;GL:material_type&gt;物料类型&lt;/&gt;规定物料的特定的特性并有重要的控制功能。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Schlüssel, der das &lt;GL:Material&gt;Material&lt;/&gt; einer Gruppe von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Materialien, wie Rohstoffen, Hilfs- und Betriebsstoffen, Handelswaren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc., zuordnet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die &lt;GL:Materialart&gt;Materialart&lt;/&gt; legt bestimmte Eigenschaften des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Materials fest und hat wichtige Steuerungsfunktionen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Key that assigns the &lt;GL:material&gt;material&lt;/&gt; to a group of materials</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>such as raw materials, operating supplies or trading goods.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;GL:material_type&gt;material type&lt;/&gt; defines certain attributes of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the material and has important control functions.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Clé permettant d&apos;affecter l&apos;article à un groupe d&apos;articles, comme</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>par exemple les matières premières, les produits consommables, les</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>produits commercialisables, etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le type d&apos;article définit certaines propriétés de l&apos;article et a des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fonctions de commande essentielles.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Chiave che attribuisce il materiale ad un gruppo di materiali,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>come, ad esempio, materie prime, articoli commerciali, ecc.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il tipo materiale stabilisce determinate caratteristiche del materiale</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>e ha importanti funzioni di controllo.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;GL:品目&gt;品目&lt;/&gt;を原材料、消耗品、商品などの品目グループに割当てるキー</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;GL:品目タイプ&gt;品目タイプ&lt;/&gt;は品目の性質を定義し管理する上で重要な</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>管理機能を持ちます。</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Chave que atribui o material a um grupo de materiais, como</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>matérias-primas, materiais auxiliares e de consumo, mercadorias</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>comerciais etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O tipo de material determina certas características do material e tem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>funções de ontrole importantes.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MTART</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Clave que asigna el material a un grupo de materiales como por ejemplo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>materias primas, materias auxiliares y combustibles, mercaderías, etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El tipo de material establece determinadas propiedades del material y</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>desempeña importantes funciones de control.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_KBETR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZATB_WERTV6</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Total Price in Transaction Currency</DDTEXT>
+    <REPTEXT>Total price</REPTEXT>
+    <SCRTEXT_S>Tot. price</SCRTEXT_S>
+    <SCRTEXT_M>Total price</SCRTEXT_M>
+    <SCRTEXT_L>Total price</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>PRICE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>事务货币的价格总计</DDTEXT>
+     <REPTEXT>价格总计</REPTEXT>
+     <SCRTEXT_S>总价</SCRTEXT_S>
+     <SCRTEXT_M>价格总计</SCRTEXT_M>
+     <SCRTEXT_L>价格总计</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>ราคาทั้งหมดในสกุลเงินของรายการ</DDTEXT>
+     <REPTEXT>ราคาทั้งหมด</REPTEXT>
+     <SCRTEXT_S>ราคารวม</SCRTEXT_S>
+     <SCRTEXT_M>ราคาทั้งหมด</SCRTEXT_M>
+     <SCRTEXT_L>ราคาทั้งหมด</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>거래통화의 총가격</DDTEXT>
+     <REPTEXT>총가격</REPTEXT>
+     <SCRTEXT_S>총가격</SCRTEXT_S>
+     <SCRTEXT_M>총가격</SCRTEXT_M>
+     <SCRTEXT_L>총가격</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Preţ total în monedă tranzacţie</DDTEXT>
+     <REPTEXT>Preţ total</REPTEXT>
+     <SCRTEXT_S>Preţ total</SCRTEXT_S>
+     <SCRTEXT_M>Preţ total</SCRTEXT_M>
+     <SCRTEXT_L>Preţ total</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Jumlah Harga dalam Mata Wang Transaksi</DDTEXT>
+     <REPTEXT>Jumlah harga</REPTEXT>
+     <SCRTEXT_S>Jmlh harga</SCRTEXT_S>
+     <SCRTEXT_M>Jumlah harga</SCRTEXT_M>
+     <SCRTEXT_L>Jumlah harga</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>السعر الإجمالي في عملة المعاملة</DDTEXT>
+     <REPTEXT>السعر الإجمالي</REPTEXT>
+     <SCRTEXT_S>سعر إجمالي</SCRTEXT_S>
+     <SCRTEXT_M>السعر الإجمالي</SCRTEXT_M>
+     <SCRTEXT_L>السعر الإجمالي</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>מחיר כולל במטבע תנועה</DDTEXT>
+     <REPTEXT>מחיר כולל</REPTEXT>
+     <SCRTEXT_S>מחיר כולל</SCRTEXT_S>
+     <SCRTEXT_M>מחיר כולל</SCRTEXT_M>
+     <SCRTEXT_L>מחיר כולל</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Celkový tarif ve měně transakce</DDTEXT>
+     <REPTEXT>Celk.tarif</REPTEXT>
+     <SCRTEXT_S>Celk.tarif</SCRTEXT_S>
+     <SCRTEXT_M>Celkový tarif</SCRTEXT_M>
+     <SCRTEXT_L>Celkový tarif</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Tarif gesamt in Transaktionswährung</DDTEXT>
+     <REPTEXT>Tarif ges.</REPTEXT>
+     <SCRTEXT_S>Tarif ges.</SCRTEXT_S>
+     <SCRTEXT_M>Tarif gesamt</SCRTEXT_M>
+     <SCRTEXT_L>Tarif gesamt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Prix global en devise de transaction</DDTEXT>
+     <REPTEXT>Px global</REPTEXT>
+     <SCRTEXT_S>Px global</SCRTEXT_S>
+     <SCRTEXT_M>Prix global</SCRTEXT_M>
+     <SCRTEXT_L>Prix global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Συνολική Τιμή σε Νόμισμα Συναλλαγής</DDTEXT>
+     <REPTEXT>Συνολ.τιμή</REPTEXT>
+     <SCRTEXT_S>Συν.τιμή</SCRTEXT_S>
+     <SCRTEXT_M>Συνολική τιμή</SCRTEXT_M>
+     <SCRTEXT_L>Συνολική τιμή</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Össztarifa a tranzakció pénznemében</DDTEXT>
+     <REPTEXT>Össztarifa</REPTEXT>
+     <SCRTEXT_S>Össztarifa</SCRTEXT_S>
+     <SCRTEXT_M>Össztarifa</SCRTEXT_M>
+     <SCRTEXT_L>Össztarifa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tariffa complessiva in divisa transazione</DDTEXT>
+     <REPTEXT>Tar.compl.</REPTEXT>
+     <SCRTEXT_S>Tar.compl.</SCRTEXT_S>
+     <SCRTEXT_M>Tariffa compl.</SCRTEXT_M>
+     <SCRTEXT_L>Tariffa complessiva</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>取引通貨での合計価格</DDTEXT>
+     <REPTEXT>合計価格</REPTEXT>
+     <SCRTEXT_S>合計価格</SCRTEXT_S>
+     <SCRTEXT_M>合計価格</SCRTEXT_M>
+     <SCRTEXT_L>合計価格</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Samlet tarif i transaktionsvaluta</DDTEXT>
+     <REPTEXT>Saml. tarif</REPTEXT>
+     <SCRTEXT_S>Saml.tarif</SCRTEXT_S>
+     <SCRTEXT_M>Samlet tarif</SCRTEXT_M>
+     <SCRTEXT_L>Samlet tarif</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Całkowita stawka w walucie transakcji</DDTEXT>
+     <REPTEXT>Stawka całk.</REPTEXT>
+     <SCRTEXT_S>Staw.całk.</SCRTEXT_S>
+     <SCRTEXT_M>Stawka całk.</SCRTEXT_M>
+     <SCRTEXT_L>Stawka całk.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>交易幣別的總價格</DDTEXT>
+     <REPTEXT>總價</REPTEXT>
+     <SCRTEXT_S>總價格</SCRTEXT_S>
+     <SCRTEXT_M>總價</SCRTEXT_M>
+     <SCRTEXT_L>總價</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Totaaltarief in transactievaluta</DDTEXT>
+     <REPTEXT>Totaaltarief</REPTEXT>
+     <SCRTEXT_S>Totl.tar.</SCRTEXT_S>
+     <SCRTEXT_M>Totaaltarief</SCRTEXT_M>
+     <SCRTEXT_L>Totaaltarief</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Totalpris i transaksjonsvaluta</DDTEXT>
+     <REPTEXT>Totalpris</REPTEXT>
+     <SCRTEXT_S>Totalpris</SCRTEXT_S>
+     <SCRTEXT_M>Totalpris</SCRTEXT_M>
+     <SCRTEXT_L>Totalpris</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tarifa total em moeda da transação</DDTEXT>
+     <REPTEXT>Tarif.total</REPTEXT>
+     <SCRTEXT_S>Tarif.tot.</SCRTEXT_S>
+     <SCRTEXT_M>Tarifa total</SCRTEXT_M>
+     <SCRTEXT_L>Tarifa total</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Celková tarifa v meme transakcie</DDTEXT>
+     <REPTEXT>Celk.tarifa</REPTEXT>
+     <SCRTEXT_S>Celk.tar.</SCRTEXT_S>
+     <SCRTEXT_M>Celková tarifa</SCRTEXT_M>
+     <SCRTEXT_L>Celková tarifa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Общий тариф в валюте транзакции</DDTEXT>
+     <REPTEXT>Тариф общ.</REPTEXT>
+     <SCRTEXT_S>Тариф общ.</SCRTEXT_S>
+     <SCRTEXT_M>Общий тариф</SCRTEXT_M>
+     <SCRTEXT_L>Общий тариф</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tarifa global en moneda de la transacción</DDTEXT>
+     <REPTEXT>Tarifa global</REPTEXT>
+     <SCRTEXT_S>Tar.global</SCRTEXT_S>
+     <SCRTEXT_M>Tarifa global</SCRTEXT_M>
+     <SCRTEXT_L>Tarifa global</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>İşlem para birimi cinsinden toplam birim fiyat</DDTEXT>
+     <REPTEXT>Toplam birim fiyat</REPTEXT>
+     <SCRTEXT_S>Toplam BF</SCRTEXT_S>
+     <SCRTEXT_M>Top.birim fiyat</SCRTEXT_M>
+     <SCRTEXT_L>Toplam birim fiyat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Toiminnon kokonaishinta tapahtumavaluuttana</DDTEXT>
+     <REPTEXT>Hinta yhteensä</REPTEXT>
+     <SCRTEXT_S>Hinta yht.</SCRTEXT_S>
+     <SCRTEXT_M>Hinta yhteensä</SCRTEXT_M>
+     <SCRTEXT_L>Hinta yhteensä</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Totalpris i transaktionsvalutan</DDTEXT>
+     <REPTEXT>Tot.pris</REPTEXT>
+     <SCRTEXT_S>Tot.pris</SCRTEXT_S>
+     <SCRTEXT_M>Totalpris</SCRTEXT_M>
+     <SCRTEXT_L>Totalpris</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
