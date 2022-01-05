@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZATB_MAKTX</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT40</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material Description</DDTEXT>
+    <REPTEXT>Material Description</REPTEXT>
+    <SCRTEXT_S>Descr.</SCRTEXT_S>
+    <SCRTEXT_M>Description</SCRTEXT_M>
+    <SCRTEXT_L>Material Description</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MATL_DESC</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>4</LANGU>
+    <LANGU>7</LANGU>
+    <LANGU>A</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>G</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>物料描述</DDTEXT>
+     <REPTEXT>物料描述</REPTEXT>
+     <SCRTEXT_S>描述</SCRTEXT_S>
+     <SCRTEXT_M>描述</SCRTEXT_M>
+     <SCRTEXT_L>物料描述</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>คำอธิบายวัสดุ</DDTEXT>
+     <REPTEXT>คำอธิบายวัสดุ</REPTEXT>
+     <SCRTEXT_S>คำอธิบาย</SCRTEXT_S>
+     <SCRTEXT_M>คำอธิบาย</SCRTEXT_M>
+     <SCRTEXT_L>คำอธิบายวัสดุ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>자재 내역</DDTEXT>
+     <REPTEXT>자재 내역</REPTEXT>
+     <SCRTEXT_S>내역</SCRTEXT_S>
+     <SCRTEXT_M>내역</SCRTEXT_M>
+     <SCRTEXT_L>자재 내역</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>4</DDLANGUAGE>
+     <DDTEXT>Descriere material</DDTEXT>
+     <REPTEXT>Descriere material</REPTEXT>
+     <SCRTEXT_S>Descr.</SCRTEXT_S>
+     <SCRTEXT_M>Descriere</SCRTEXT_M>
+     <SCRTEXT_L>Descriere material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>7</DDLANGUAGE>
+     <DDTEXT>Perihalan Bahan</DDTEXT>
+     <REPTEXT>Perihalan Bahan</REPTEXT>
+     <SCRTEXT_S>Perihalan</SCRTEXT_S>
+     <SCRTEXT_M>Perihalan</SCRTEXT_M>
+     <SCRTEXT_L>Perihalan Bahan</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>A</DDLANGUAGE>
+     <DDTEXT>وصف المادة</DDTEXT>
+     <REPTEXT>وصف المادة</REPTEXT>
+     <SCRTEXT_S>وصف</SCRTEXT_S>
+     <SCRTEXT_M>الوصف</SCRTEXT_M>
+     <SCRTEXT_L>وصف المادة</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <DDTEXT>תיאור חומר</DDTEXT>
+     <REPTEXT>תיאור חומר</REPTEXT>
+     <SCRTEXT_S>תיאור</SCRTEXT_S>
+     <SCRTEXT_M>תיאור</SCRTEXT_M>
+     <SCRTEXT_L>תיאור חומר</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Krát.text materiálu</DDTEXT>
+     <REPTEXT>Krát.text materiálu</REPTEXT>
+     <SCRTEXT_S>Označení</SCRTEXT_S>
+     <SCRTEXT_M>Označení</SCRTEXT_M>
+     <SCRTEXT_L>Krát.text materiálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialkurztext</DDTEXT>
+     <REPTEXT>Materialkurztext</REPTEXT>
+     <SCRTEXT_S>Bezeich</SCRTEXT_S>
+     <SCRTEXT_M>Bezeichnung</SCRTEXT_M>
+     <SCRTEXT_L>Materialkurztext</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Désignation article</DDTEXT>
+     <REPTEXT>Désignation article</REPTEXT>
+     <SCRTEXT_S>Désignat.</SCRTEXT_S>
+     <SCRTEXT_M>Désignation</SCRTEXT_M>
+     <SCRTEXT_L>Désignation article</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>G</DDLANGUAGE>
+     <DDTEXT>Περιγραφή Υλικού</DDTEXT>
+     <REPTEXT>Περιγραφή Υλικού</REPTEXT>
+     <SCRTEXT_S>Περιγραφή</SCRTEXT_S>
+     <SCRTEXT_M>Περιγραφή</SCRTEXT_M>
+     <SCRTEXT_L>Περιγραφή Υλικού</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Anyag rövid szövege</DDTEXT>
+     <REPTEXT>Anyag rövid szövege</REPTEXT>
+     <SCRTEXT_S>Megnevezés</SCRTEXT_S>
+     <SCRTEXT_M>Megnevezés</SCRTEXT_M>
+     <SCRTEXT_L>Anyag rövid szövege</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Testo breve materiale</DDTEXT>
+     <REPTEXT>Testo breve materiale</REPTEXT>
+     <SCRTEXT_S>Def.</SCRTEXT_S>
+     <SCRTEXT_M>Definizione</SCRTEXT_M>
+     <SCRTEXT_L>Testo breve mat.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>品目テキスト</DDTEXT>
+     <REPTEXT>品目テキスト</REPTEXT>
+     <SCRTEXT_S>テキスト</SCRTEXT_S>
+     <SCRTEXT_M>テキスト</SCRTEXT_M>
+     <SCRTEXT_L>品目テキスト</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Materialekorttekst</DDTEXT>
+     <REPTEXT>Materialekorttekst</REPTEXT>
+     <SCRTEXT_S>Betegnelse</SCRTEXT_S>
+     <SCRTEXT_M>Betegnelse</SCRTEXT_M>
+     <SCRTEXT_L>Materialekorttekst</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Krótki tekst materiału</DDTEXT>
+     <REPTEXT>Krótki tekst materiału</REPTEXT>
+     <SCRTEXT_S>Oznacz.</SCRTEXT_S>
+     <SCRTEXT_M>Oznaczenie</SCRTEXT_M>
+     <SCRTEXT_L>Krótki tekst mat.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>物料說明</DDTEXT>
+     <REPTEXT>物料說明</REPTEXT>
+     <SCRTEXT_S>說明</SCRTEXT_S>
+     <SCRTEXT_M>說明</SCRTEXT_M>
+     <SCRTEXT_L>物料說明</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Artikelomschrijving</DDTEXT>
+     <REPTEXT>Artikelomschrijving</REPTEXT>
+     <SCRTEXT_S>Omschr.</SCRTEXT_S>
+     <SCRTEXT_M>Omschrijving</SCRTEXT_M>
+     <SCRTEXT_L>Artikelomschrijving</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Materialkorttekst</DDTEXT>
+     <REPTEXT>Materialkorttekst</REPTEXT>
+     <SCRTEXT_S>Betegnelse</SCRTEXT_S>
+     <SCRTEXT_M>Betegnelse</SCRTEXT_M>
+     <SCRTEXT_L>Materialkorttekst</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Texto breve de material</DDTEXT>
+     <REPTEXT>TxtBreveMaterial</REPTEXT>
+     <SCRTEXT_S>Denom.</SCRTEXT_S>
+     <SCRTEXT_M>Denominação</SCRTEXT_M>
+     <SCRTEXT_L>Texto breve material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Krátky text materiálu</DDTEXT>
+     <REPTEXT>Krátky text materiálu</REPTEXT>
+     <SCRTEXT_S>Označenie</SCRTEXT_S>
+     <SCRTEXT_M>Označenie</SCRTEXT_M>
+     <SCRTEXT_L>Krát.text materiálu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Краткий текст материала</DDTEXT>
+     <REPTEXT>Краткий текст материала</REPTEXT>
+     <SCRTEXT_S>Название</SCRTEXT_S>
+     <SCRTEXT_M>Название</SCRTEXT_M>
+     <SCRTEXT_L>КрТекстМатериала</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Texto breve de material</DDTEXT>
+     <REPTEXT>Texto breve de material</REPTEXT>
+     <SCRTEXT_S>Denomin.</SCRTEXT_S>
+     <SCRTEXT_M>Denominación</SCRTEXT_M>
+     <SCRTEXT_L>Texto breve material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Malzeme kısa metni</DDTEXT>
+     <REPTEXT>Malzeme kısa metni</REPTEXT>
+     <SCRTEXT_S>Tanım</SCRTEXT_S>
+     <SCRTEXT_M>Tanım</SCRTEXT_M>
+     <SCRTEXT_L>Malzeme kısa metni</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Nimikkeen lyhyt selitys</DDTEXT>
+     <REPTEXT>Nimikkeen lyhyt selitys</REPTEXT>
+     <SCRTEXT_S>Nimitys</SCRTEXT_S>
+     <SCRTEXT_M>Nimitys</SCRTEXT_M>
+     <SCRTEXT_L>Nim. lyhyt selitys</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Materialbeteckning</DDTEXT>
+     <REPTEXT>Materialbeteckning</REPTEXT>
+     <SCRTEXT_S>Beteckning</SCRTEXT_S>
+     <SCRTEXT_M>Beteckning</SCRTEXT_M>
+     <SCRTEXT_L>Materialbeteckning</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>1</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>1</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>包含多达40个从更多的明细描述&lt;GL:material&gt;物料&lt;/&gt;的字符的文本。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>用户可以在任何数量的语言的每个中输入一个物料描述。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>原则上， 用户在其输入记录的首个用户部门的数据屏幕上和用户的登陆语言</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>中输入物料描述。用户覆盖基本数据屏幕上的物料描述。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bis zu 40 Stellen langer Text, der das &lt;GL:Material&gt;Material&lt;/&gt; näher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>bezeichnet. Der Materialkurztext ist die Bezeichnung des Materials.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es kann für beliebig viele Sprachen jeweils genau einen Kurztext geben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Prinzipiell erfassen Sie den Materialkurztext auf dem Datenbild des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ersten Fachbereichs, für den Sie Daten erfassen, und zwar in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sprache, in der Sie angemeldet sind. Auf dem Grunddatenbild ist der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Materialkurztext überschreibbar.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Text containing up to 40 characters that describes the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:material&gt;material&lt;/&gt; in more detail.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You can enter one material description in each of any number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>languages.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In principle, you enter the material description on the data screen of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the first user department for which you enter data, and in your logon</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>language. You can overwrite the material description on the Basic Data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00007</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zone de 40 caractères maximum décrivant plus précisément un article</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>donné. L&apos;article est identifié par sa désignation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Il existe une désignation dans chaque langue.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En règle générale, vous saisissez la désignation de l&apos;article à l&apos;écran</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de données du premier service considéré et ce, dans votre langue de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>travail. Il est possible d&apos;écraser la désignation à l&apos;écran des données</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>I</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>I</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Testo di un lunghezza massima di 40 posizioni che descrive in modo più</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>preciso il materiale. Il testo breve del materiale è la definizione del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>materiale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In tutte le lingue, esiste un testo breve per ogni materiale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In linea di massima, si acquisisce un testo breve relativo al materiale</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nella videate di dati del primo reparto specializzato per il quale sono</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stati acquisiti dei dati e la lingua di questo testo è quella con cui</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>si è effettuato il Logon. Il testo breve relativo al materiale si può</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sovrascrivere alla videata di dati di base.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>J</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>J</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;GL:品目&gt;品目&lt;/&gt;を詳述する 40 文字までのテキスト</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>品目テキストは複数の言語で表すことができます。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>原則として、ログイン言語にて品目テキストを入力します。</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Texto com até 40 posições que descreve o material mais detalhadamente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>O texto breve de material é a denominação do material.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pode existir exatamente um texto breve para um número arbitrário de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>idiomas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Por princípio, entrar o texto breve de material na tela de dados do</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>primeiro setor técnico para o qual os dados são entrados no idioma, no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>qual o logon foi efetuado. Na tela de dados básicos, o texto breve de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material pode ser sobregravado.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZATB_MAKTX</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00008</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZATB_MAKTX</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Texto de hasta 40 posiciones que designa más detalladamente el</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material. El texto breve del material equivale a la denominación del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Puede existir un texto breve para tantos idiomas como se desee.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>En principio, el texto breve del material se registra en la pantalla de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>datos de la primera área de especialización, para la cual se registran</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>datos, y en el idioma en el se esté trabajando. El texto breve del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material puede sobrescribirse en la pantalla de datos básicos.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
